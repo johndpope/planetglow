@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652BCFF91B990CF500BF22FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652BCFF81B990CF500BF22FD /* main.m */; };
+		652BCFFC1B990CF500BF22FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652BCFFB1B990CF500BF22FD /* AppDelegate.m */; };
+		652BCFFF1B990CF500BF22FD /* PlanetGlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 652BCFFD1B990CF500BF22FD /* PlanetGlow.xcdatamodeld */; };
+		652BD0021B990CF500BF22FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652BD0011B990CF500BF22FD /* ViewController.m */; };
+		652BD0051B990CF500BF22FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652BD0031B990CF500BF22FD /* Main.storyboard */; };
+		652BD0071B990CF500BF22FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652BD0061B990CF500BF22FD /* Images.xcassets */; };
+		652BD00A1B990CF500BF22FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652BD0081B990CF500BF22FD /* LaunchScreen.xib */; };
+		652BD0161B990CF600BF22FD /* PlanetGlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652BD0151B990CF600BF22FD /* PlanetGlowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		652BD0101B990CF600BF22FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652BCFEB1B990CF500BF22FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 652BCFF21B990CF500BF22FD;
+			remoteInfo = PlanetGlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		652BCFF31B990CF500BF22FD /* PlanetGlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetGlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		652BCFF71B990CF500BF22FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652BCFF81B990CF500BF22FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		652BCFFA1B990CF500BF22FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		652BCFFB1B990CF500BF22FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		652BCFFE1B990CF500BF22FD /* PlanetGlow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlanetGlow.xcdatamodel; sourceTree = "<group>"; };
+		652BD0001B990CF500BF22FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		652BD0011B990CF500BF22FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		652BD0041B990CF500BF22FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		652BD0061B990CF500BF22FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		652BD0091B990CF500BF22FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		652BD00F1B990CF600BF22FD /* PlanetGlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetGlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652BD0141B990CF600BF22FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652BD0151B990CF600BF22FD /* PlanetGlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetGlowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652BCFF01B990CF500BF22FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652BD00C1B990CF600BF22FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652BCFEA1B990CF500BF22FD = {
+			isa = PBXGroup;
+			children = (
+				652BCFF51B990CF500BF22FD /* PlanetGlow */,
+				652BD0121B990CF600BF22FD /* PlanetGlowTests */,
+				652BCFF41B990CF500BF22FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		652BCFF41B990CF500BF22FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652BCFF31B990CF500BF22FD /* PlanetGlow.app */,
+				652BD00F1B990CF600BF22FD /* PlanetGlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		652BCFF51B990CF500BF22FD /* PlanetGlow */ = {
+			isa = PBXGroup;
+			children = (
+				652BCFFA1B990CF500BF22FD /* AppDelegate.h */,
+				652BCFFB1B990CF500BF22FD /* AppDelegate.m */,
+				652BD0001B990CF500BF22FD /* ViewController.h */,
+				652BD0011B990CF500BF22FD /* ViewController.m */,
+				652BD0031B990CF500BF22FD /* Main.storyboard */,
+				652BD0061B990CF500BF22FD /* Images.xcassets */,
+				652BD0081B990CF500BF22FD /* LaunchScreen.xib */,
+				652BCFFD1B990CF500BF22FD /* PlanetGlow.xcdatamodeld */,
+				652BCFF61B990CF500BF22FD /* Supporting Files */,
+			);
+			path = PlanetGlow;
+			sourceTree = "<group>";
+		};
+		652BCFF61B990CF500BF22FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				652BCFF71B990CF500BF22FD /* Info.plist */,
+				652BCFF81B990CF500BF22FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		652BD0121B990CF600BF22FD /* PlanetGlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				652BD0151B990CF600BF22FD /* PlanetGlowTests.m */,
+				652BD0131B990CF600BF22FD /* Supporting Files */,
+			);
+			path = PlanetGlowTests;
+			sourceTree = "<group>";
+		};
+		652BD0131B990CF600BF22FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				652BD0141B990CF600BF22FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652BCFF21B990CF500BF22FD /* PlanetGlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652BD0191B990CF600BF22FD /* Build configuration list for PBXNativeTarget "PlanetGlow" */;
+			buildPhases = (
+				652BCFEF1B990CF500BF22FD /* Sources */,
+				652BCFF01B990CF500BF22FD /* Frameworks */,
+				652BCFF11B990CF500BF22FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanetGlow;
+			productName = PlanetGlow;
+			productReference = 652BCFF31B990CF500BF22FD /* PlanetGlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		652BD00E1B990CF600BF22FD /* PlanetGlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652BD01C1B990CF600BF22FD /* Build configuration list for PBXNativeTarget "PlanetGlowTests" */;
+			buildPhases = (
+				652BD00B1B990CF600BF22FD /* Sources */,
+				652BD00C1B990CF600BF22FD /* Frameworks */,
+				652BD00D1B990CF600BF22FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652BD0111B990CF600BF22FD /* PBXTargetDependency */,
+			);
+			name = PlanetGlowTests;
+			productName = PlanetGlowTests;
+			productReference = 652BD00F1B990CF600BF22FD /* PlanetGlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652BCFEB1B990CF500BF22FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = DKLEO;
+				TargetAttributes = {
+					652BCFF21B990CF500BF22FD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					652BD00E1B990CF600BF22FD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 652BCFF21B990CF500BF22FD;
+					};
+				};
+			};
+			buildConfigurationList = 652BCFEE1B990CF500BF22FD /* Build configuration list for PBXProject "PlanetGlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 652BCFEA1B990CF500BF22FD;
+			productRefGroup = 652BCFF41B990CF500BF22FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652BCFF21B990CF500BF22FD /* PlanetGlow */,
+				652BD00E1B990CF600BF22FD /* PlanetGlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652BCFF11B990CF500BF22FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652BD0051B990CF500BF22FD /* Main.storyboard in Resources */,
+				652BD00A1B990CF500BF22FD /* LaunchScreen.xib in Resources */,
+				652BD0071B990CF500BF22FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652BD00D1B990CF600BF22FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652BCFEF1B990CF500BF22FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652BCFFC1B990CF500BF22FD /* AppDelegate.m in Sources */,
+				652BCFFF1B990CF500BF22FD /* PlanetGlow.xcdatamodeld in Sources */,
+				652BD0021B990CF500BF22FD /* ViewController.m in Sources */,
+				652BCFF91B990CF500BF22FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652BD00B1B990CF600BF22FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652BD0161B990CF600BF22FD /* PlanetGlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		652BD0111B990CF600BF22FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 652BCFF21B990CF500BF22FD /* PlanetGlow */;
+			targetProxy = 652BD0101B990CF600BF22FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		652BD0031B990CF500BF22FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652BD0041B990CF500BF22FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		652BD0081B990CF500BF22FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652BD0091B990CF500BF22FD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652BD0171B990CF600BF22FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		652BD0181B990CF600BF22FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		652BD01A1B990CF600BF22FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlanetGlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		652BD01B1B990CF600BF22FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlanetGlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		652BD01D1B990CF600BF22FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlanetGlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetGlow.app/PlanetGlow";
+			};
+			name = Debug;
+		};
+		652BD01E1B990CF600BF22FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlanetGlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetGlow.app/PlanetGlow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652BCFEE1B990CF500BF22FD /* Build configuration list for PBXProject "PlanetGlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652BD0171B990CF600BF22FD /* Debug */,
+				652BD0181B990CF600BF22FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652BD0191B990CF600BF22FD /* Build configuration list for PBXNativeTarget "PlanetGlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652BD01A1B990CF600BF22FD /* Debug */,
+				652BD01B1B990CF600BF22FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		652BD01C1B990CF600BF22FD /* Build configuration list for PBXNativeTarget "PlanetGlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652BD01D1B990CF600BF22FD /* Debug */,
+				652BD01E1B990CF600BF22FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		652BCFFD1B990CF500BF22FD /* PlanetGlow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				652BCFFE1B990CF500BF22FD /* PlanetGlow.xcdatamodel */,
+			);
+			currentVersion = 652BCFFE1B990CF500BF22FD /* PlanetGlow.xcdatamodel */;
+			path = PlanetGlow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 652BCFEB1B990CF500BF22FD /* Project object */;
+}
