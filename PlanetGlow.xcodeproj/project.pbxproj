@@ -16,6 +16,12 @@
 		652BD00A1B990CF500BF22FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652BD0081B990CF500BF22FD /* LaunchScreen.xib */; };
 		652BD0161B990CF600BF22FD /* PlanetGlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652BD0151B990CF600BF22FD /* PlanetGlowTests.m */; };
 		652BD0261B9914D700BF22FD /* glow-app-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 652BD0251B9914D700BF22FD /* glow-app-4.jpg */; };
+		652BD02E1B99231000BF22FD /* libWhirlyGlobe-MaplyComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BD02D1B99230300BF22FD /* libWhirlyGlobe-MaplyComponent.a */; };
+		652BD0301B99232200BF22FD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BD02F1B99232200BF22FD /* CoreLocation.framework */; };
+		652BD0321B99233000BF22FD /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BD0311B99233000BF22FD /* libc++.dylib */; };
+		652BD0341B99233700BF22FD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BD0331B99233700BF22FD /* libz.dylib */; };
+		652BD0361B99234200BF22FD /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BD0351B99234200BF22FD /* libxml2.dylib */; };
+		652BD0381B99234E00BF22FD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 652BD0371B99234E00BF22FD /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +31,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 652BCFF21B990CF500BF22FD;
 			remoteInfo = PlanetGlow;
+		};
+		652BD02C1B99230300BF22FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652BD0271B99230300BF22FD /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B11E0DB15B4C030007AAE3F;
+			remoteInfo = "WhirlyGlobe-MaplyComponent";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,6 +57,12 @@
 		652BD0141B990CF600BF22FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652BD0151B990CF600BF22FD /* PlanetGlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetGlowTests.m; sourceTree = "<group>"; };
 		652BD0251B9914D700BF22FD /* glow-app-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "glow-app-4.jpg"; sourceTree = "<group>"; };
+		652BD0271B99230300BF22FD /* WhirlyGlobe-MaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "WhirlyGlobe-MaplyComponent.xcodeproj"; path = "libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent.xcodeproj"; sourceTree = "<group>"; };
+		652BD02F1B99232200BF22FD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		652BD0311B99233000BF22FD /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		652BD0331B99233700BF22FD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		652BD0351B99234200BF22FD /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		652BD0371B99234E00BF22FD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652BD0381B99234E00BF22FD /* libsqlite3.dylib in Frameworks */,
+				652BD0361B99234200BF22FD /* libxml2.dylib in Frameworks */,
+				652BD0341B99233700BF22FD /* libz.dylib in Frameworks */,
+				652BD0321B99233000BF22FD /* libc++.dylib in Frameworks */,
+				652BD0301B99232200BF22FD /* CoreLocation.framework in Frameworks */,
+				652BD02E1B99231000BF22FD /* libWhirlyGlobe-MaplyComponent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +92,12 @@
 		652BCFEA1B990CF500BF22FD = {
 			isa = PBXGroup;
 			children = (
+				652BD0371B99234E00BF22FD /* libsqlite3.dylib */,
+				652BD0351B99234200BF22FD /* libxml2.dylib */,
+				652BD0331B99233700BF22FD /* libz.dylib */,
+				652BD0311B99233000BF22FD /* libc++.dylib */,
+				652BD02F1B99232200BF22FD /* CoreLocation.framework */,
+				652BD0271B99230300BF22FD /* WhirlyGlobe-MaplyComponent.xcodeproj */,
 				652BCFF51B990CF500BF22FD /* PlanetGlow */,
 				652BD0121B990CF600BF22FD /* PlanetGlowTests */,
 				652BCFF41B990CF500BF22FD /* Products */,
@@ -123,6 +154,14 @@
 				652BD0141B990CF600BF22FD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		652BD0281B99230300BF22FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652BD02D1B99230300BF22FD /* libWhirlyGlobe-MaplyComponent.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +231,12 @@
 			mainGroup = 652BCFEA1B990CF500BF22FD;
 			productRefGroup = 652BCFF41B990CF500BF22FD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 652BD0281B99230300BF22FD /* Products */;
+					ProjectRef = 652BD0271B99230300BF22FD /* WhirlyGlobe-MaplyComponent.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				652BCFF21B990CF500BF22FD /* PlanetGlow */,
@@ -199,6 +244,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		652BD02D1B99230300BF22FD /* libWhirlyGlobe-MaplyComponent.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libWhirlyGlobe-MaplyComponent.a";
+			remoteRef = 652BD02C1B99230300BF22FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		652BCFF11B990CF500BF22FD /* Resources */ = {
@@ -356,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
 				INFOPLIST_FILE = PlanetGlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/libs/WhirlyGlobeMaply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
 				INFOPLIST_FILE = PlanetGlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +483,7 @@
 				652BD01B1B990CF600BF22FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		652BD01C1B990CF600BF22FD /* Build configuration list for PBXNativeTarget "PlanetGlowTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +492,7 @@
 				652BD01E1B990CF600BF22FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
