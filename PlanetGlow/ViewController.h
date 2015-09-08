@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WhirlyGlobeViewController.h"
+#import "MaplyBaseViewController.h"
 
-@interface ViewController : UIViewController
 
-
+@interface ViewController   : UIViewController
+    <WhirlyGlobeViewControllerDelegate>
+@property (weak,nonatomic) IBOutlet UIBarButtonItem *barButton;
 @end
 

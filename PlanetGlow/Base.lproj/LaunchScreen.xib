@@ -10,31 +10,24 @@
             <rect key="frame" x="0.0" y="0.0" width="601" height="818"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="glow-app-4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ln9-dr-lEm">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="818"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="600" id="C4Z-3d-cQI"/>
-                        <constraint firstAttribute="height" constant="818" id="JXU-x0-UpN"/>
-                    </constraints>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="glow-app-4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4j6-7Y-YDt">
+                    <rect key="frame" x="0.0" y="-818" width="600" height="818"/>
+                    <variation key="heightClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="818"/>
+                    </variation>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstAttribute="centerY" secondItem="Ln9-dr-lEm" secondAttribute="centerY" id="P3O-G0-9sx"/>
-                <constraint firstAttribute="centerX" secondItem="Ln9-dr-lEm" secondAttribute="centerX" id="v40-IY-vLS"/>
-            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="P3O-G0-9sx"/>
-                    <exclude reference="v40-IY-vLS"/>
+                <mask key="subviews">
+                    <exclude reference="4j6-7Y-YDt"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular">
-                <mask key="constraints">
-                    <include reference="P3O-G0-9sx"/>
-                    <include reference="v40-IY-vLS"/>
+                <mask key="subviews">
+                    <include reference="4j6-7Y-YDt"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="168.5" y="40"/>
